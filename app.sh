@@ -18,6 +18,7 @@ phpMyAdmin() { source ./scripts/phpMyAdmin.sh; }
 node() { source ./scripts/node.sh; }
 vscode() { source ./scripts/vscode.sh; }
 mongoDB() { source ./scripts/mongo.sh; }
+insomnia() { source ./scripts/insomnia.sh; }
 
 listOfPackages=$(split_by $checkedList '|');
 
@@ -31,5 +32,6 @@ for item in $listOfPackages; do
     elif [ $item = "NODE" ]; then node
     elif [ $item = "VSCODE" ]; then vscode
     elif [ $item = "MONGODB" ]; then mongoDB
+    elif [ $item = "INSOMNIA" ]; then insomnia
     fi
 done

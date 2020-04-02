@@ -15,5 +15,6 @@ checkedList=$(zenity  --list  --text "Selecione seu sistema favorito" \
     FALSE phpMyAdmin \
     FALSE NODE \
     FALSE VSCODE \
-    FALSE MONGODB
+    FALSE MONGODB \
+    FALSE INSOMNIA
     );
