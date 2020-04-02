@@ -10,7 +10,10 @@ checkedList=$(zenity  --list  --text "Selecione seu sistema favorito" \
     --column "Mark" \
     --column "packages" \
     FALSE MySQL \
-    FALSE Apache2 \
-    FALSE PHP7.3 \
-    FALSE phpMyAdmin
+    FALSE APACHE \
+    FALSE PHP \
+    FALSE phpMyAdmin \
+    FALSE NODE \
+    FALSE VSCODE \
+    FALSE MONGODB
     );

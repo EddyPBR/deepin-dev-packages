@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\n ### UPDATE THE SYSTEM ### \n";
+echo -e "\n ### UPDATING THE SYSTEM ### \n";
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
