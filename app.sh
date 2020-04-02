@@ -4,13 +4,15 @@
 # AND SEPARATED BY A "|", SO SPLIT_BY FUNCTION SEPARE IT
 # AND THE RETURN IS ATRIBUITED TO listOfPackages.
 
-source ./interface.sh;
-source ./split_by.sh;
+source ./scripts/interface.sh;
+source ./scripts/split_by.sh;
 
-mySQL() { source mysql.sh; }
-apache() { source apache.sh; }
+mySQL() { source ./scripts/mysql.sh; }
+apache() { source ./scripts/apache.sh; }
 
 listOfPackages=$(split_by $checkedList '|');
+
+source ./scripts/updateSystem.sh;
 
 for item in $listOfPackages; do 
     if [ $item = "MySQL" ]; then mySQL

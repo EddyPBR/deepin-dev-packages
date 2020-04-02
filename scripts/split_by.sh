@@ -5,6 +5,6 @@ split_by () {
     tmp=${string//"$separator"/$'\2'}
     IFS=$'\2' read -a arr <<< "$tmp"
     for substr in "${arr[@]}" ; do
-        echo "$substr"
+        echo "$substr";
     done
 }
