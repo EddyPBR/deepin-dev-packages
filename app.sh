@@ -20,7 +20,7 @@ vscode() { source ./scripts/vscode.sh; }
 mongoDB() { source ./scripts/mongo.sh; }
 insomnia() { source ./scripts/insomnia.sh; }
 git() { source ./scripts/gitInstall.sh; }
-jdk() { source ./scripts/jdk13.sh; }
+jdk() { source ./scripts/jdk14.sh; }
 python() { source ./scripts/python37.sh; }
 
 
@@ -38,7 +38,7 @@ for item in $listOfPackages; do
     elif [ $item = "MONGODB" ]; then mongoDB
     elif [ $item = "INSOMNIA" ]; then insomnia
     elif [ $item = "GIT" ]; then git
-    # elif [ $item = "JDK_13" ]; then jdk
+    elif [ $item = "JDK_14" ]; then jdk
     # elif [ $item = "PYTHON_37" ]; then python
     fi
 done
