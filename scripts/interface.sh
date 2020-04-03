@@ -16,5 +16,8 @@ checkedList=$(zenity  --list  --text "Selecione seu sistema favorito" \
     FALSE NODE \
     FALSE VSCODE \
     FALSE MONGODB \
-    FALSE INSOMNIA
+    FALSE INSOMNIA \
+    FALSE GIT \
+    FALSE JDK_14 \
+    FALSE PYTHON_37 
     );
