@@ -39,6 +39,6 @@ for item in $listOfPackages; do
     elif [ $item = "INSOMNIA" ]; then insomnia
     elif [ $item = "GIT" ]; then git
     elif [ $item = "JDK_14" ]; then jdk
-    # elif [ $item = "PYTHON_37" ]; then python
+    elif [ $item = "PYTHON_37" ]; then python
     fi
 done
