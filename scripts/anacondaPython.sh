@@ -18,3 +18,10 @@ rm -rf Anaconda*.sh
 
 cd -
 echo -e "\n ### END SCRIPT ANACONDA ### \n"
+
+echo -e "\n\n ### TO CONFIGURE ANACONDA ### \n\n"
+echo -e "\n cd ~"
+echo -e "source ./anaconda3/bin/activate"
+echo -e "conda init zsh"
+echo -e "conda deactivate"
+echo -e "\n ### ### ### ### ### ### ### ### \n"
