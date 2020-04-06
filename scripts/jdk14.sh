@@ -22,9 +22,9 @@ EOF
 source /etc/profile.d/jdk14.sh
 java -version
 
-echo "FOR SEE IF THE JAVA IS CORRECTLY INSTALLED USE THE COMMANDS AS ROOT (sudo -s):"
-echo "source /etc/profile.d/jdk14.sh"
-echo "java -version"
+echo -e "\n FOR SEE IF THE JAVA IS CORRECTLY INSTALLED USE THE COMMANDS AS ROOT (sudo -s):"
+echo -e "source /etc/profile.d/jdk14.sh"
+echo -e "java -version \n"
 
 cd -
 echo -e "\n ### END SCRIPT JDK14 ### \n"

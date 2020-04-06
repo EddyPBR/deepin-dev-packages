@@ -22,6 +22,8 @@ insomnia() { source ./scripts/insomnia.sh; }
 git() { source ./scripts/gitInstall.sh; }
 jdk() { source ./scripts/jdk14.sh; }
 python() { source ./scripts/python37.sh; }
+anaconda() { source ./scripts/anacondaPython.sh; }
+notebook() { source ./scripts/jupyterNotebook.sh; }
 
 
 listOfPackages=$(split_by $checkedList '|');
@@ -40,5 +42,7 @@ for item in $listOfPackages; do
     elif [ $item = "GIT" ]; then git
     elif [ $item = "JDK_14" ]; then jdk
     elif [ $item = "PYTHON_37" ]; then python
+    elif [ $item = "ANACONDA" ]; then anaconda
+    elif [ $item = "NOTEBOOK" ]; then notebook
     fi
 done
