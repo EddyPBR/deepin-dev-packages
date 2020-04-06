@@ -20,6 +20,11 @@ export PATH=\$PATH:\$JAVA_HOME/bin
 EOF
 
 source /etc/profile.d/jdk14.sh
+java -version
+
+echo "FOR SEE IF THE JAVA IS CORRECTLY INSTALLED USE THE COMMANDS AS ROOT (sudo -s):"
+echo "source /etc/profile.d/jdk14.sh"
+echo "java -version"
 
 cd -
 echo -e "\n ### END SCRIPT JDK14 ### \n"
