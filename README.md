@@ -9,6 +9,9 @@
 We know how boring it can be to format your computer and have to download and install all the packages and programs again. Being tired of having to redo everything again every time, and aiming to have a standard and better control over my packages and applications, I had the brilliant idea of ​​creating a script for package installations and development applications.
 
 Due to the fact that I have a platonic love for DeepinOS (seriously it is very beautiful and has many silly features that help a lot) this project contains several shellscript files designed to install packages and applications for developers in general that use DeepinOS as their operating system of work.
+
+<span style="color:red">**PS: is working on Deepin20-beta**</span>
+<br />
 <br />
 
 ### How Use
