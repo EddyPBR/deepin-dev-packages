@@ -3,7 +3,7 @@
 echo -e "\n ### INSTALLING MYSQL ### \n"
 cd ~
 
-sudo apt-get install -y mysql-server
+sudo apt-get install -y mariadb-server
 sudo mysql_secure_installation
 
 echo -e "\n ############################# \n"
