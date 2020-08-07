@@ -40,6 +40,7 @@ download the file in this [download link]("https://github.com/EddyPBR/deepin-dev
 * [Mongo Compass Communiy](https://github.com/EddyPBR/deepin-dev-packages/blob/master/scripts/mongo.sh "Mongo Compass Communiy")
 * [MySQL](https://github.com/EddyPBR/deepin-dev-packages/blob/master/scripts/mysql.sh "MySQL")
 * [Node 12^](https://github.com/EddyPBR/deepin-dev-packages/blob/master/scripts/node.sh "Node 12^")
+* [Yarn](https://github.com/EddyPBR/deepin-dev-packages/blob/master/scripts/yarn.sh "Yarn") (need Node.JS Installed)
 * [PHP 7.3](https://github.com/EddyPBR/deepin-dev-packages/blob/master/scripts/php.sh "PHP 7.3")
 * [PhpMyAdmin](https://github.com/EddyPBR/deepin-dev-packages/blob/master/scripts/phpMyAdmin.sh "PhpMyAdmin") (need PHP + Apache + Mysql Installed) see [Configure MySQL and PHPMyAdmin](https://github.com/EddyPBR/deepin-dev-packages/blob/master/scripts/configureSqlToPhpMyAdmin.sh "Configure MySQL and PHPMyAdmin")
 * [Python 3.7](https://github.com/EddyPBR/deepin-dev-packages/blob/master/scripts/python37.sh "Python 3.7")

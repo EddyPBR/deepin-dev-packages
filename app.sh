@@ -18,6 +18,7 @@ phpMyAdmin() { source ./scripts/phpMyAdmin.sh; }
 node() { source ./scripts/node.sh; }
 vscode() { source ./scripts/vscode.sh; }
 mongoDB() { source ./scripts/mongo.sh; }
+yarn() { source ./scripts/yarn.sh; }
 insomnia() { source ./scripts/insomnia.sh; }
 git() { source ./scripts/gitInstall.sh; }
 jdk() { source ./scripts/jdk14.sh; }
@@ -36,6 +37,7 @@ for item in $listOfPackages; do
     elif [ $item = "NODE" ]; then node
     elif [ $item = "VSCODE" ]; then vscode
     elif [ $item = "MONGODB" ]; then mongoDB
+    elif [ $item = "YARN" ]; then yarn
     elif [ $item = "INSOMNIA" ]; then insomnia
     elif [ $item = "GIT" ]; then git
     elif [ $item = "JDK_14" ]; then jdk
