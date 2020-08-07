@@ -8,6 +8,8 @@ sudo apt-get -y upgrade
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.20.5_amd64.deb
 sudo dpkg -i mongodb-compass_*
 rm -rf mongodb-compass_*
+export PATH=$PATH:/usr/local/mongodb/bin
+sudo apt-get install mongodb
 
 cd -
 echo -e "\n ### END SCRIPT MONGODB COMPASS ### \n"
